@@ -1,0 +1,203 @@
+/* ================================ start =========================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =============================== common design ============================ */
+
+/*========== for all cart-btn */
+.cart-btn{
+    width: 170px;
+    height: 60px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+.cart-btn i{
+    margin-right: 5px;
+}
+
+/* ======== for all category-title======== */
+.category-title{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #363958;
+
+
+}
+
+/* ================= for all  product-card ============= */
+.card{
+    border: none !important;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 15px ;
+}
+.card img{
+    width: 225px;
+    height: 253px;
+}
+.card-content{
+    background: #F1F1F1;
+    border-radius: 20px;
+    padding:25px 0 ;
+}
+.card-body .product-title, .title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+}
+.card-body p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #3E3E3E;
+    font-family: 'Roboto', sans-serif;
+}
+/* ================================== header section =============================== */
+.header-container{
+    background-color: #FFFBF0;
+    width: 100%;
+    height: 100%;
+}
+.navbar img{
+    width: 290px;
+    margin: 0;
+}
+
+.navbar ul li{
+    margin-left: 15px;
+    padding-left: 15px;
+}
+.navbar ul li a{
+    color: #3C3C3C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.navbar ul li a:hover{
+    color: #3C3C3C !important;
+}
+
+/* ======================== header-contents =================== */
+.header-contents h4{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FABE4C;
+}
+.header-container .span{
+    color: #363958;
+}
+.header-container p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #3E3E3E;
+    font-style: normal;
+}
+.card-body .product-price{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FABE4C;
+    margin-top: 10px;
+}
+
+
+/* =========================================================== week-deals section ======================================== */
+.week-deals-area{
+    background-color: #FFFBF0;
+}
+.week-deals-area p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #3E3E3E;
+    font-style: normal;
+}
+.product-discount{
+    display: flex;
+}
+.product-discount p{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.product-discount del{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: gray;
+    
+}
+.deals-card{
+    background: none !important;
+    border-radius: 0 !important;
+}
+
+/* =========================================================== about ======================================== */
+.single-card{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 20px;
+}
+.single-card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single-card-content img{
+    width: 78px;
+    height: 82px;
+}
+.title-container{
+    margin-left: 30px;
+}
+
+/*===================================== responsive css ======================================*/
+
+@media screen and  (max-width:992px){
+    .header-contents h4{
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .header-container p{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .category-title{
+        text-align: center;
+    }
+    .single-card-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .week-deals-area p{
+        text-align: center;
+    }
+}
+
+/* ========================================================= End ==================================================== */
