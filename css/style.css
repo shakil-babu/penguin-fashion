@@ -94,6 +94,10 @@
 .navbar ul li a:hover{
     color: #3C3C3C !important;
 }
+.nav-item{
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
 
 /* ======================== header-contents =================== */
 .header-contents h4{
