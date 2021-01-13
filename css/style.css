@@ -200,4 +200,21 @@
     }
 }
 
+
+@media screen and (max-width:450px){
+    .navbar img{
+        width: 200px;
+        margin: 0;
+        padding: 0;
+    }
+    .cart-btn{
+        width: 130px;
+        height: 40px;
+    }
+    .card-body .product-price{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+}
+
 /* ========================================================= End ==================================================== */
